@@ -1,0 +1,196 @@
+.row{
+	margin: 0;
+}
+
+.container{
+	margin: 0;
+}
+.hero-image{
+	background-image: url("../img/background/hero.jpg");
+	height: 630px;
+	background-size: cover;
+}
+.opc-black{
+	width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 630px;
+}
+
+.nav{
+	position: fixed;
+}
+nav{
+	padding: 1% 11% 5%;
+}
+nav a{
+	font-weight: 600;
+	padding-right: 5%;
+}
+
+nav a:hover{
+	color: #0dc0c0; 
+}
+
+header a{
+	color: white;
+}
+
+header .col-3 strong{
+	font-size: 1.4em;
+}
+.btn-header{
+	background-color: rgba(0, 0, 0, 0.3);
+    padding: 1%;
+}
+
+.btn-header:hover{
+	background: #2E2E2E;
+}
+.features{
+    background-image: url("../img/laptop-features.png");
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.city-banner{
+	background-image: url("../img/background/city.jpg");
+    height: 380px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 1.5em;
+}
+.opc-banner{
+	width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 380px;
+}    
+.city-banner a{
+	background-color: rgba(0, 0, 0, 0.3);
+    padding: 1%;
+    color: white;
+    font-size: 0.8em;
+}
+
+.btn-call:hover{
+	background-color: gray;
+}
+section:nth-child(4) .row{
+	padding: 3% 4% 3%;
+}
+
+section:nth-child(5) nav a{
+	background: white;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 1%;
+}
+
+section:nth-child(5) nav a:hover{
+	background: #0dc0c0;
+}
+
+.photo{
+	background: white;
+	padding: 3% 4%;
+	width: 100%
+}
+
+section:nth-child(5) .col-6{
+	padding: 0% 3% 0% 4%;
+}
+
+.btn-load{
+	background-color: #2E2E2E;
+    color: Gainsboro;
+    padding: 1%;	
+}
+
+.btn-load:hover{
+	background: #0dc0c0;
+	color: white;
+}
+
+.package{
+	background: white;
+	padding: 7%;
+	width: 140%;
+}
+
+.box{
+	background: #2E2E2E;
+	width: 100%;
+}
+
+.box-green{
+	background: #0dc0c0;
+}
+section:nth-child(6) h3{
+	background-color: rgb(244, 244, 244);
+}
+
+section:nth-child(6) .row:nth-child(2) p{
+	border-bottom: gray;
+}
+
+.btn-comprar{
+	padding: 2% 6%;
+	background: #2E2E2E;
+	color: rgb(244, 244, 244);
+}
+
+.btn-comprar:hover{
+	background: #0dc0c0;
+}
+
+.custom-img{
+	border-radius: 50%;
+	width: 8%;
+}
+
+.contact{
+	background-image: url("../img/background/contactus.jpg");
+	color: white;
+	height: 620px;
+	background-size: cover;
+}
+
+.opc-contact{
+	width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 620px;
+}
+
+.contact h2{
+	font-size: 1.3em;
+	font-weight: normal;
+	padding-top: 5%;
+}
+
+.btn-submit{
+	background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 3% 8%;
+    margin-left: 2.5%;
+}
+.btn-submit:hover{
+	background-color: #0dc0c0;
+}
+
+footer{
+	background-color: #2E2E2E;
+	color: Gainsboro;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 2%;
+}
+
+.social-icons i{
+	font-size: 2em;
+	color: #2E2E2E;
+	padding: 0% 0.5%;
+}
